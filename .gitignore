@@ -1,0 +1,67 @@
+# Ignore build artifacts and executables
+/build/
+*.exe
+*.out
+*.o
+*.obj
+# Ignore executables
+tictactoe
+testsuite
+
+# Ignore temporary or backup files
+*.swp
+*~
+\#*
+
+# Ignore IDE-specific files and directories
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.suo
+
+# Ignore log and backup files
+*.log
+*.bak
+*.backup
+
+# Ignore test results
+/test_results/
+
+# Ignore CMake-generated files
+CMakeFiles/
+CMakeCache.txt
+CMakeScripts/
+*.cmake
+Makefile
+
+# Ignore Makefile and related build files
+*.make
+*.c.o
+*.c.o.d
+
+# Ignore Xcode plist files
+*.plist
+
+# Ignore the .internal directory and its contents
+.internal/
+
+# Ignore TypeScript source files
+*.ts
+
+# Ignore YAML files
+*.yaml
+*.yml
+
+# Ignore the .dSYM directory and its contents
+.dSYM/
+
+# Ignore code coverage and profiling files
+*.gcda
+*.gcov
+*.gcno
+
+.DS_Store
+
+
